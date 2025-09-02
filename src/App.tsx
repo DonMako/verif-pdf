@@ -2,7 +2,7 @@ import { useState } from "react"
 import "./App.css"
 
 export default function App() {
-  const [pdf, setPdf] = useState(0)
+  const [pdf, setPdf] = useState("")
 
   function handleChange(): void {
     const files = (document.getElementById("myFile") as HTMLInputElement).files;
